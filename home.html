@@ -10,10 +10,20 @@
 
   gtag('config', 'UA-154895216-1');
 </script>
-
+<script>
+function send(){
+gtag("event", "觀看影片 / 動作名稱", {
+	"event_category": "首頁123",
+	"event_label": "宣傳一",
+  "value": 8
+});
+alert("事件己送出");
+}
+</script>  
 </head>
 <body>
   <h3>website for GA</h3>
   <div>Hello Google Ana;ytics</div>
+  
   </body>
   </html>
